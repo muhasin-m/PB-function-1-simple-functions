@@ -20,3 +20,9 @@ The formula to get a random number between 0 and any number
 let n = 5;
 Math.floor(Math.random() * (n + 1));
 */
+
+function randomInt(max) {
+    return Math.floor(Math.random()*(max+1));
+}
+
+console.log(randomInt(10))

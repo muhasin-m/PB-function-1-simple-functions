@@ -19,3 +19,12 @@ You can start by using a string with all the available letters:
 ```
 
 */
+
+
+function getRandomLetter() {
+   const alphabet = "abcdefghijklmnopqrstuvwxyz";
+   const index = Math.floor(Math.random() *alphabet.length);
+   return alphabet[index];
+}
+
+console.log(getRandomLetter())

@@ -25,3 +25,11 @@ letter === letter.toUpperCase(); // false
 let capitalLetter = "Q";
 capitalLetter === capitalLetter.toUpperCase(); // true
 */
+
+function startsWithCapitalLetter(str) {
+    return str[0] === str[0].toUpperCase();
+}
+
+console.log(startsWithCapitalLetter("Hello"));
+console.log(startsWithCapitalLetter("javascript"));
+console.log(startsWithCapitalLetter("Python"))

@@ -20,3 +20,11 @@ let s = "hello world";
 s.slice(1); // ello world
 
 */
+
+function capitalise(string) {
+    return string[0].toUpperCase() + string.slice(1).toLowerCase();
+}
+
+console.log(capitalise("hello"));
+console.log(capitalise("we PuT thE FUN iN FuNcTiOnS"));
+console.log(capitalise("BERLIN"));

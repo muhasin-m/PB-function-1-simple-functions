@@ -18,3 +18,12 @@ isDivisibleBy(10, 2); // true
 // is 15 divisible by 7?
 isDivisibleBy(15, 7); // false
 */
+
+function isDivisibleBy(a,b) {
+    return a%b === 0;
+}
+
+console.log(isDivisibleBy(10, 2));
+console.log(isDivisibleBy(9, 3));
+console.log(isDivisibleBy(25, 5));
+console.log(isDivisibleBy(18, 7));
